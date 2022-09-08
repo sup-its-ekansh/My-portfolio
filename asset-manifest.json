@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/My-portfolio/static/css/main.33418b66.css",
+    "main.js": "/My-portfolio/static/js/main.bdd7adb6.js",
+    "static/media/to-do.png": "/My-portfolio/static/media/to-do.766701d7c1f677acf177.png",
+    "static/media/compound.png": "/My-portfolio/static/media/compound.4dd0fa8e5091ce31ad37.png",
+    "static/media/xecart.jpeg": "/My-portfolio/static/media/xecart.7a4d6a0fe8060b2c11cd.jpeg",
+    "static/media/calc.png": "/My-portfolio/static/media/calc.37091f11d57ca2e82ac3.png",
+    "static/media/image.jpg": "/My-portfolio/static/media/image.aefef1bfe555877e1249.jpg",
+    "static/media/bootstrap.png": "/My-portfolio/static/media/bootstrap.f132cb791703420e69ca.png",
+    "static/media/firebase.webp": "/My-portfolio/static/media/firebase.cfdddcfdb8340e090cbb.webp",
+    "static/media/mongodb.webp": "/My-portfolio/static/media/mongodb.a9e71b595f4bd285943b.webp",
+    "static/media/css.png": "/My-portfolio/static/media/css.0c13c5cecd566fbab673.png",
+    "static/media/tailwind.jpg": "/My-portfolio/static/media/tailwind.b622e290e82093c36cca.jpg",
+    "static/media/html.png": "/My-portfolio/static/media/html.7aa9a441950283a96c63.png",
+    "index.html": "/My-portfolio/index.html",
+    "main.33418b66.css.map": "/My-portfolio/static/css/main.33418b66.css.map",
+    "main.bdd7adb6.js.map": "/My-portfolio/static/js/main.bdd7adb6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33418b66.css",
+    "static/js/main.bdd7adb6.js"
+  ]
+}
