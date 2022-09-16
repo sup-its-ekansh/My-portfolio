@@ -7,7 +7,7 @@ export default function Navbar() {
     <div>
       <nav className="sticky top-0 bg-gradient-to-b from-gray-900 to-black flex justify-between p-4">
         <img
-          className="w-10 cursor-pointer  "
+          className="w-14 cursor-pointer  "
           src="https://cdn.mos.cms.futurecdn.net/snbrHBRigvvzjxNGuUtcck.jpg"
           alt="logo"
         />
