@@ -1,89 +1,65 @@
 import React from "react";
-import Python from "../images/python.jpeg";
-import C from "../images/c++.png";
-import Htm from "../images/html.png";
-import Css from "../images/css.png";
-import Bootstrap from "../images/bootstrap.png";
-import Js from "../images/js.png";
-import Rea from "../images/react.png";
-import Tailwind from "../images/tailwind.jpg";
-import MongoDb from "../images/mongodb.webp";
-import Njs from "../images/njs.png";
-import Firebase from "../images/firebase.webp";
+
 
 const main = () => {
   return (
-    <div className="md:h-[80vh] bg-gray-300 ">
-      <div className="flex py-14 justify-center">
-        <h1 className="text-4xl py-8 font-bold">SKILLS</h1>
+<div id="target" className="h-400 bg-black ">
+      <div className="flex justify-center">
+        <h1 className="text-4xl text-white py-8 font-bold">SKILLS</h1>
       </div>
-      <div className="flex flex-col">
-        <div className="flex flex-col md:flex-row justify-evenly">
-          <div className="flex flex-row py-6 px-4 ">
-            <div className="flex md:flex-col  justify-around md:justify-centre items-center text-2xl font-bold">
-              <img className="w-20 rounded-xl" src={Python} alt="" />
-              <span className=" uppercase py-6">Python</span>
+
+      <div className="grid grid-cols-1 gap-10 mt-50px p-20 sm:grid-cols-2 md:grid-cols-3 relative w-full">
+                <div className="bg-[#262626] text-white  p-10 rounded-lg text-13px font-light transition duration-500 hover:bg-[#9b59b6] transform hover:-translate-y-6 cursor-pointer ">
+                    <i className="mb-[30px]" class="fa-2x fa-brands fa-python"></i>
+                    <h2 className="text-[30px] font-bold mb-15px">Python</h2>
+                    <p>Versatile, high-level programming language for web, data, automation, and AI. Simple syntax fosters rapid development and broad applications.</p>
+                    <a className="text-no-underline text-white text-[20px] mt-[40px] inline-block" href="https://docs.python.org/3/">Learn more</a>
+                </div>
+                <div className="bg-[#262626] text-white p-10 rounded-lg text-13px font-light transition duration-500 hover:bg-[#9b59b6] transform hover:-translate-y-6 cursor-pointer">
+                    <i className="mb-30" class="fa-2x fa-brands fa-html5"></i>
+                    <h2 className="text-[30px] font-bold mb-15px">HTML</h2>
+                    <p>Proficient in crafting structured web content. Skilled in semantic elements, forms, and accessibility for creating user-friendly web interfaces.</p>
+                    <a className="text-no-underline text-white text-[20px] mt-[40px] inline-block" href="">Learn more</a>
+                </div>
+                <div className="bg-[#262626] text-white  p-10 rounded-lg text-13px font-light transition duration-500 hover:bg-[#9b59b6] transform hover:-translate-y-6 cursor-pointer">
+                    <i className="mb-30" class="fa-2x fa-brands fa-css3-alt"></i>
+                    <h2 className="text-[30px] font-bold mb-15px">CSS</h2>
+                    <p>Proficient in styling web interfaces. Skilled in layout, responsiveness, and design principles to enhance user experiences across devices.</p>
+                    <a className="text-no-underline text-white text-[20px] mt-[40px] inline-block" href="https://devdocs.io/css/">Learn more</a>
+                </div>
+                <div className="bg-[#262626] text-white  p-10 rounded-lg text-13px font-light transition duration-500 hover:bg-[#9b59b6] transform hover:-translate-y-6 cursor-pointer">
+                    <i className="mb-[30px]" class="fa-2x fa-brands fa-square-js"></i>
+                    <h2 className="text-[30px] font-bold mb-15px">JavaScript</h2>
+                    <p>Proficient in scripting dynamic web interactions. Skilled in DOM manipulation, APIs, and creating engaging user interfaces for seamless browsing.</p>
+                    <a className="text-no-underline text-white text-[20px] mt-[40px] inline-block" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Learn more</a>
+                </div>
+                <div className="bg-[#262626] text-white p-10 rounded-lg text-13px font-light transition duration-500 hover:bg-[#9b59b6] transform hover:-translate-y-6 cursor-pointer">
+                    <i className="mb-30" class="fa-2x fa-brands fa-react"></i>
+                    <h2 className="text-[30px] font-bold mb-15px">ReactJS</h2>
+                    <p>Experienced in building interactive user interfaces. Proficient in components, state management, and virtual DOM for creating dynamic web applications.</p>
+                    <a className="text-no-underline text-white text-[20px] mt-[40px] inline-block" href="https://legacy.reactjs.org/docs/getting-started.html">Learn more</a>
+                </div>
+                <div className="bg-[#262626] text-white  p-10 rounded-lg text-13px font-light transition duration-500 hover:bg-[#9b59b6] transform hover:-translate-y-6 cursor-pointer">
+                    <i className="mb-30" class="fa-2x fa-brands fa-file-code"></i>
+                    <h2 className="text-[30px] font-bold mb-15px">Tailwind</h2>
+                    <p>Skilled in using utility-first framework. Proficient in rapid UI development, responsive designs, and streamlined styling for web projects.</p>
+                    <a className="text-no-underline text-white text-[20px] mt-[40px] inline-block" href="https://v2.tailwindcss.com/docs">Learn more</a>
+                </div>
+                <div className="bg-[#262626] text-white  p-10 rounded-lg text-13px font-light transition duration-500 hover:bg-[#9b59b6] transform hover:-translate-y-6 cursor-pointer">
+                    <i className="mb-[30px]" class="fa-2x fa-brands fa-codepen"></i>
+                    <h2 className="text-[30px] font-bold mb-15px">Redux</h2>
+                    <p>Experienced in managing state for complex web applications. Proficient in actions, reducers, and centralizing data flow for scalable frontends.</p>
+                    <a className="text-no-underline text-white text-[20px] mt-[40px] inline-block" href="https://redux.js.org/">Learn more</a>
+                </div>
+                <div className="bg-[#262626] text-white p-10 rounded-lg text-13px font-light transition duration-500 hover:bg-[#9b59b6] transform hover:-translate-y-6 cursor-pointer">
+                    <i className="mb-30" class="fa-2x fa-brands fa-code-branch"></i>
+                    <h2 className="text-[30px] font-bold mb-15px">Firebase</h2>
+                    <p>Proficient in leveraging cloud platform. Skilled in real-time databases, authentication, and hosting for building dynamic and secure web applications.</p>
+                    <a className="text-no-underline text-white text-[20px] mt-[40px] inline-block" href="https://firebase.google.com/docs">Learn more</a>
+                </div>
+                
             </div>
-          </div>
-          <div className="flex flex-row py-6 px-4 ">
-            <div className="flex md:flex-col  justify-between md:justify-centre items-center text-2xl font-bold">
-              <img className="w-20 rounded-xl" src={C} alt="" />
-              <span className=" uppercase py-6">C++</span>
-            </div>
-          </div>
-          <div className="flex flex-row py-6 px-4 ">
-            <div className="flex md:flex-col  justify-between md:justify-centre items-center text-2xl font-bold">
-              <img className="w-20 rounded-xl" src={Htm} alt="" />
-              <span className=" uppercase py-6">HTML</span>
-            </div>
-          </div>
-          <div className="flex flex-row py-6 px-4 ">
-            <div className="flex md:flex-col  justify-between md:justify-centre items-center text-2xl font-bold">
-              <img className="w-20 rounded-xl" src={Css} alt="" />
-              <span className=" uppercase py-6">CSS</span>
-            </div>
-          </div>
-          <div className="flex flex-row py-6 px-4 ">
-            <div className="flex md:flex-col  justify-between md:justify-centre items-center text-2xl font-bold">
-              <img className="w-20 rounded-xl" src={Js} alt="" />
-              <span className=" uppercase py-6">javascript</span>
-            </div>
-          </div>
-        </div>
-        <div className="flex flex-col md:flex-row justify-evenly">
-          <div className="flex flex-row py-6 px-4 ">
-            <div className="flex md:flex-col  justify-between md:justify-centre items-center text-2xl font-bold">
-              <img className="w-20 rounded-xl" src={Rea} alt="" />
-              <span className=" uppercase py-6">React</span>
-            </div>
-          </div>
-          <div className="flex flex-row py-6 px-4 ">
-            <div className="flex md:flex-col  justify-between md:justify-centre items-center text-2xl font-bold">
-              <img className="w-24 rounded-xl" src={Bootstrap} alt="" />
-              <span className=" uppercase py-6">Bootstrap</span>
-            </div>
-          </div>
-          <div className="flex flex-row py-6 px-4 ">
-            <div className="flex md:flex-col  justify-between md:justify-center items-center text-2xl font-bold">
-              <img className="w-20 rounded-xl" src={Tailwind} alt="" />
-              <span className=" uppercase py-6">Tailwind</span>
-            </div>
-          </div>
-          <div className="flex flex-row py-6 px-4 ">
-            <div className="flex md:flex-col  justify-between md:justify-centre items-center text-2xl font-bold">
-              <img className="w-36 rounded-xl" src={MongoDb} alt="" />
-              <span className=" uppercase py-6">mongodb</span>
-            </div>
-          </div>
-          <div className="flex flex-row py-6 px-4 ">
-            <div className="flex md:flex-col  justify-between md:justify-centre items-center text-2xl font-bold">
-              <img className="w-36 rounded-xl" src={Firebase} alt="" />
-              <span className=" uppercase py-6">Firebase</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      
+            
     </div>
   );
 };

@@ -49,7 +49,7 @@ const main = () => {
             </div>
           </div>
         </div>
-        <div className="bg-black m-10 border-2 rounded-xl p-8 uppercase  text-white font-bold h-80 md:w-1/2">
+        <div className="bg-black m-10 border-2 overflow-clip rounded-xl p-8 uppercase text-white font-bold h-80 md:w-2/3">
           Graduation
           <div className="flex flex-col p-8  ">
             <div className="flex items-center">

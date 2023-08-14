@@ -5,10 +5,12 @@ import Intro from "./components/intro";
 import Work from "./components/work";
 import Footer from "./components/footer"
 import Skills from "./components/skills"
+import { useState } from "react";
 function App() {
+  
   return <div className="App">
     <Navbar/>
-    <Intro/>
+    <Intro customName/>
     <Skills/>
 
     <Education/>

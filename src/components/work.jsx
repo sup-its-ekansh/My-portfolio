@@ -1,8 +1,8 @@
 import React from "react";
-import Calculator from "../images/calc.png";
-import Todo from "../images/to-do.png";
+
+import Netflix from "../images/Netflix.png";
 import Compound from "../images/compound.png";
-import Xecart from "../images/xecart.jpeg";
+import Discord  from "../images/disc.png";
 
 const work = () => {
   return (
@@ -14,10 +14,10 @@ const work = () => {
       </div>
       <div className="flex-col px-8">
         <div className="flex py-44 flex-col md:flex-row justify-center items-center md:justify-between ">
-          <div className="md:w-1/3 px-8">
+          <div className="md:w-1/3 flex-1 px-8">
             <img
               className="w-72 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-150 cursor-pointer rounded-3xl  h-96 md:w-96"
-              src={Todo}
+              src={Netflix}
               alt=""
             />
           </div>
@@ -25,15 +25,20 @@ const work = () => {
             <p>
               <ul>
                 <li className="py-6">
-                  <h1 className="text-6xl Font-bold">Project Name- To-Do List</h1>
+                  <h1 className="text-6xl Font-bold">
+                    Project Name- Netflix Clone
+                  </h1>
                 </li>
                 <li className="text-2xl text-white mb-10">
-                  In this project i created a To-Do app using HTML, CSS, Javascript, Firebase. In this i've used Firebase Auth and other libraies too
+                  Developed a Netflix clone using React, Redux, Tailwind CSS,
+                  JavaScript, Firebase, and Stripe payment API. Users can browse
+                  movies, select subscription plans, and securely purchase them
+                  through Stripe.
                 </li>
                 <li>
-                  <button className="rounded-lg border-2 font-bold duration-300 uppercase border-green-400   bg-black text-green-500 px-16 py-2 hover:bg-green-500 hover:text-black">
+                  <a href="https://netflix-new-aaffc.web.app/" className="rounded-lg border-2 font-bold duration-300 uppercase border-green-400   bg-black text-green-500 px-16 py-2 hover:bg-green-500 hover:text-black">
                     Visit
-                  </button>
+                  </a>
                 </li>
               </ul>
             </p>
@@ -44,10 +49,13 @@ const work = () => {
             <p>
               <ul>
                 <li className="py-6">
-                  <h1 className="text-6xl Font-bold">Project Name- Compond Clone</h1>
+                  <h1 className="text-6xl Font-bold">
+                    Project Name- Compond Clone
+                  </h1>
                 </li>
                 <li className="text-2xl text-yellow-200 mb-10">
-                 In this project i made a clone of a site called Compound.fininace using Bootstrap, HTML, CSS and JavaScript{" "}
+                  In this project i made a clone of a site called
+                  Compound.fininace using Bootstrap, HTML, CSS and JavaScript{" "}
                 </li>
                 <li>
                   <button className="rounded-lg border-2 font-bold duration-300 uppercase border-green-400   bg-black text-green-500 px-16 py-2 hover:bg-green-500 hover:text-black">
@@ -69,8 +77,8 @@ const work = () => {
         <div className="flex py-44 flex-col md:flex-row justify-center items-center md:justify-between ">
           <div className="md:w-1/3 px-8">
             <img
-              className="w-72transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-150  rounded-3xl h-96 md:w-96"
-              src={Xecart}
+              className="w-72 transform transition duration-500 hover:-translate-y-1 rounded-3xl h-96 md:w-96"
+              src={Discord}
               alt=""
             />
           </div>
@@ -78,16 +86,19 @@ const work = () => {
             <p>
               <ul>
                 <li className="py-6">
-                  <h1 className="text-6xl Font-bold">Project Name- Xecart</h1>
+                  <h1 className="text-6xl Font-bold">Project Name- Discord Clone</h1>
                 </li>
                 <li className="text-2xl text-indigo-200 mb-10">
-                  In this Project i designed an e-commerce site "XeCart" using
-                  HTML, CSS, Bootstrap{" "}
+                I developed a Discord clone with features like sending messages, creating multiple channels, and incorporating Google
+                authentication for seamless sign-in. This clone allows users to
+                communicate in real-time, organize discussions into separate
+                channels, and authenticate their accounts using their Google
+                credentials. {" "}
                 </li>
                 <li>
-                  <button className="rounded-lg border-2 font-bold duration-300 uppercase border-green-400   bg-black text-green-500 px-16 py-2 hover:bg-green-500 hover:text-black">
+                  <a href="https://discord-clone-c7e2f.web.app" className="rounded-lg border-2 font-bold duration-300 uppercase border-green-400   bg-black text-green-500 px-16 py-2 hover:bg-green-500 hover:text-black">
                     Visit
-                  </button>
+                  </a>
                 </li>
               </ul>
             </p>
